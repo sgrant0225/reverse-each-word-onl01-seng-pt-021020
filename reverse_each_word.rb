@@ -6,6 +6,5 @@ require 'pry'
    array.collect do |words| #iterated over the array
      new_array << words.reverse #reversed each word into the new array
    end
-   new_array.join(" ") 
-   end
+   new_array.join(" ") #joined the array into a string
 #Can not use enumerators on string 
