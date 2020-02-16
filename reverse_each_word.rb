@@ -8,3 +8,4 @@ require 'pry'
    end
    new_array.join(" ")
    end
+#Can not use enumerators on string 
