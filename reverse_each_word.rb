@@ -4,8 +4,8 @@ require 'pry'
  array = sentence.split(" ") #set the split sentence which are strings into an array
    new_array = [] #created a new_array
    array.collect do |words| #iterated over the array
-     new_array << words.reverse
+     new_array << words.reverse #reversed each word into the new array
    end
-   new_array.join(" ")
+   new_array.join(" ") 
    end
 #Can not use enumerators on string 
